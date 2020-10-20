@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <li class="list-group-item"><label class="text-primary">Nome:</label> <?php echo $nome; ?></li>
                 <li class="list-group-item"><label class="text-primary">CPF:</label> <?php echo $cpf; ?></li>
                 <li class="list-group-item"><label class="text-primary">Telefone:</label> <?php echo $telefone; ?></li>
-                <li class="list-group-item"><label class="text-primary">Data de Nascimento:</label> <?php echo $data_nascimento; ?></li>
+                <li class="list-group-item"><label class="text-primary">Data de Nascimento:</label> <?php echo date('d/m/Y',strtotime($data_nascimento)); ?></li>
                 <li class="list-group-item"><label class="text-primary">E-mail:</label> <?php echo $email; ?></li>
                 <li class="list-group-item"><label class="text-primary">Endereço:</label> <?php echo $endereco; ?></li>
                 <li class="list-group-item"><label class="text-primary">Número:</label> <?php echo $numero; ?></li>
